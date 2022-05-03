@@ -1,2 +1,58 @@
 # numpy-python
 NumPy, which stands for Numerical Python, is a library consisting of multidimensional array objects and a collection of routines for processing those arrays. Using NumPy, mathematical and logical operations on arrays can be performed.
+1. Mathematical and Logical Operations
+2. Fourier Transform
+3. Operation related to linear Algebra
+
+## WHY NUMPY
+### 1. Fixed-Type
+In this one specifies dtype to define the size. It uses less bytes therefore less memory. No type checking while iterating through the object.
+
+### 2. Continuous Memory
+
+## APPLICATION
+1. Mathematical
+2. Plotting
+3. Backend(Pandas, photography)
+4. Machine Learning
+
+## NUMPY ARRAY CREATION
+1. Python Structure (List, Tuple)
+2. Numpy array creation object (ones, zeros, linspace, arange)
+3. Reading from disk
+4. Array from bytes
+5. Special Library Function (random)
+
+## READABILITY
+Need to explain the logic while using it as it is less readable.
+
+## ANATOMY OF ARRAY
+In this lesser the dtype more speed factor is gained i.e.  np.int8>>>>np.int64
+
+## MEMORY LAYOUT
+Strides - Number of bytes in each dimension while traversing.
+Eg. in 3X3 matrix with itemsize = 2 then stride is 6.
+
+## VECTORIZATION
+### 1. Uniform Vectorization
+![alt text](https://www.labri.fr/perso/nrougier/from-python-to-numpy/data/Textile-Cone-cropped.jpg)
+In this all elements share the same computation time while processing. There is no specific time for a particular step.
+Eg. Game of Life
+
+### 2. Temporal Vectorization
+![alt text](https://www.labri.fr/perso/nrougier/from-python-to-numpy/data/Fractal-Broccoli-cropped.jpg)
+ It is very easy to compute, but it can take a very long time because you need to ensure a given number does not diverge. 
+E.g. Mandelbrot
+
+### 3. Spatial Vectorization
+![alt text](https://www.labri.fr/perso/nrougier/from-python-to-numpy/data/Fugle-cropped.jpg)
+Elements share the same computation time but in sub groups.
+E.g. Boids(Flock of birds)--------Seperation, alignment, cohesion
+
+## BEYOND NUMPY
+1. Numpy Expression
+2. Cython (Optimized Static Compiler)
+3. Numba (Speed as written in Python)
+4. Theano (Optimized, speed, stability, GPU)
+5. PyCUDA (Access CUDA Parallely)
+6. PyOpenCL (Access GPU and Massive Parallel)
