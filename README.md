@@ -6,7 +6,7 @@ NumPy, which stands for Numerical Python, is a library consisting of multidimens
 
 ## WHY NUMPY
 ### 1. Fixed-Type
-In this one specifies dtype to define the size. It uses less bytes therefore less memory. No type checking while iterating through the object.
+In this one specifies dtype to define the size. It uses fewer bytes therefore less memory. No type checking while iterating through the object.
 
 ### 2. Continuous Memory
 
@@ -31,13 +31,13 @@ In this lesser the dtype more speed factor is gained i.e.  np.int8>>>>np.int64
 
 ## MEMORY LAYOUT
 Strides - Number of bytes in each dimension while traversing.
-Eg. in 3X3 matrix with itemsize = 2 then stride is 6.
+E.g. in 3X3 matrix with itemsize = 2 then stride is 6.
 
 ## VECTORIZATION
 ### 1. Uniform Vectorization
 ![alt text](https://www.labri.fr/perso/nrougier/from-python-to-numpy/data/Textile-Cone-cropped.jpg)
 In this all elements share the same computation time while processing. There is no specific time for a particular step.
-Eg. Game of Life
+E.g. Game of Life
 
 ### 2. Temporal Vectorization
 ![alt text](https://www.labri.fr/perso/nrougier/from-python-to-numpy/data/Fractal-Broccoli-cropped.jpg)
@@ -46,8 +46,8 @@ E.g. Mandelbrot
 
 ### 3. Spatial Vectorization
 ![alt text](https://www.labri.fr/perso/nrougier/from-python-to-numpy/data/Fugle-cropped.jpg)
-Elements share the same computation time but in sub groups.
-E.g. Boids(Flock of birds)--------Seperation, alignment, cohesion
+Elements share the same computation time but in subgroups.
+E.g. Boids(Flock of birds):- separation, alignment, cohesion
 
 ## BEYOND NUMPY
 1. Numpy Expression
