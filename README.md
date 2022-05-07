@@ -60,3 +60,7 @@ E.g. Boids(Flock of birds):- separation, alignment, cohesion
 4. Theano (Optimized, speed, stability, GPU)
 5. PyCUDA (Access CUDA Parallely)
 6. PyOpenCL (Access GPU and Massive Parallel)
+
+## SPLIT
+In **np.hsplit** and **np.vsplit** we need to define the parameter that divides the array in equal parts otherwise throw error.
+In **np.split** it will divide the array and make empty array if split divide is more that elements along particular axis.
