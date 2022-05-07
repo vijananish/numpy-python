@@ -49,6 +49,10 @@ E.g. Mandelbrot
 Elements share the same computation time but in subgroups.
 E.g. Boids(Flock of birds):- separation, alignment, cohesion
 
+## VIEW v/s COPY
+1. The copy owns the data and any changes made to the copy will not affect original array, and any changes made to the original array will not affect the copy.
+2. The view does not own the data and any changes made to the view will affect the original array, and any changes made to the original array will affect the view.
+
 ## BEYOND NUMPY
 1. Numpy Expression
 2. Cython (Optimized Static Compiler)
