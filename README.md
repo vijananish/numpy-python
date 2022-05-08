@@ -5,6 +5,7 @@ NumPy, which stands for Numerical Python, is a library consisting of multidimens
 3. Operation related to linear Algebra
 
 ## WHY NUMPY
+![alt text](https://miro.medium.com/max/1400/1*HRezxXfsgF-ZS4CXX0i_Fw.jpeg)
 ### 1. Fixed-Type
 In this one specifies dtype to define the size. It uses fewer bytes therefore less memory. No type checking while iterating through the object.
 
@@ -64,3 +65,11 @@ E.g. Boids(Flock of birds):- separation, alignment, cohesion
 ## SPLIT
 In **np.hsplit** and **np.vsplit** we need to define the parameter that divides the array in equal parts otherwise throw error.
 In **np.split** it will divide the array and make empty array if split divide is more that elements along particular axis.
+
+## AXIS
+1. For 1-D —>
+   <br>axis = 0
+
+2. For 2-D —> 
+<br>Axis = 0 down the column
+<br>Axis = 1 along the row
