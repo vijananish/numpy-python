@@ -1,4 +1,4 @@
-# 100 numpy exercises
+# 100 NUMPY QUESTIONS
 
 This is a collection of exercises that have been collected in the numpy mailing list, on stack 
 overflow
@@ -6,9 +6,7 @@ and in the numpy documentation. The goal of this collection is to offer a quick 
 and new 
 users but also to provide a set of exercises for those who teach.
 
-
-If you find an error or think you've a better way to
- solve some of them, feel
+If you find an error or think you've a better way to solve some of them, feel
 free to open an issue.
 
 #### 1. Import the numpy package under the name (★☆☆)

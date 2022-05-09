@@ -1,4 +1,4 @@
-# numpy-python
+# NUMPY
 NumPy, which stands for Numerical Python, is a library consisting of multidimensional array objects and a collection of routines for processing those arrays. Using NumPy, mathematical and logical operations on arrays can be performed.
 1. Mathematical and Logical Operations
 2. Fourier Transform
@@ -8,8 +8,9 @@ NumPy, which stands for Numerical Python, is a library consisting of multidimens
 ![alt text](https://miro.medium.com/max/1400/1*HRezxXfsgF-ZS4CXX0i_Fw.jpeg)
 ### 1. Fixed-Type
 In this one specifies dtype to define the size. It uses fewer bytes therefore less memory. No type checking while iterating through the object.
-
+![alt text](https://miro.medium.com/max/1400/1*JuPhEfCfla3jpbKvKVV8JQ.png)
 ### 2. Continuous Memory
+![alt text](https://i.stack.imgur.com/oQQVI.png)
 
 ## APPLICATION
 1. Mathematical
@@ -73,3 +74,8 @@ In **np.split** it will divide the array and make empty array if split divide is
 2. For 2-D —> 
 <br>Axis = 0 down the column
 <br>Axis = 1 along the row
+
+## Keywords
+1. np.pad() :  The function returns the padded array of rank equal to the given array and the shape will increase according to pad_width.
+2. np.diag() : Diagonal we require; k>0 means diagonal above main diagonal or vice versa.
+3. 
