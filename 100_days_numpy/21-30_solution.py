@@ -1,5 +1,5 @@
 """
-This file contains solution of 11-20 questions
+This file contains solution of 21-30 questions
 """
 import numpy as np
 

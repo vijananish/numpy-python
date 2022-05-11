@@ -78,4 +78,5 @@ In **np.split** it will divide the array and make empty array if split divide is
 ## Keywords
 1. np.pad() :  The function returns the padded array of rank equal to the given array and the shape will increase according to pad_width.
 2. np.diag() : Diagonal we require; k>0 means diagonal above main diagonal or vice versa.
-3. 
+3. remove all warning: ```defaults = np.seterr(all="ignore")```
+4. array using generator: ```np.fromiter()```
