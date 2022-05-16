@@ -76,7 +76,13 @@ In **np.split** it will divide the array and make empty array if split divide is
 <br>Axis = 1 along the row
 
 ## Keywords
-1. np.pad() :  The function returns the padded array of rank equal to the given array and the shape will increase according to pad_width.
-2. np.diag() : Diagonal we require; k>0 means diagonal above main diagonal or vice versa.
-3. remove all warning: ```defaults = np.seterr(all="ignore")```
-4. array using generator: ```np.fromiter()```
+1. ```np.dtype()```
+2. ```np.pad()``` :  The function returns the padded array of rank equal to the given array and the shape will increase according to pad_width.
+3. ```np.diag()``` : Diagonal we require; k>0 means diagonal above main diagonal or vice versa.
+4. ```defaults = np.seterr(all="ignore")``` : remove all warning.
+5. ```np.fromiter()``` : array using generator
+6. ```numpy.tile(A, reps)``` : Construct an array by repeating A number of times given by reps.
+7. ```np.add.reduce()``` : to add array faster than np.sum() for small array.
+8. ```data.flags.writeable = True``` : to make data in readable format.
+9. ```np.iinfo, np.finfo``` : limit the machine to integer and float. The kind of integer data type to get information about.
+10. ```numpy.set_printoptions(threshold=sys.maxsize)``` : to print all the values

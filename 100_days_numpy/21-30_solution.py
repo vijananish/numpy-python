@@ -47,7 +47,7 @@ Z/1/1
 """
 print("-----------------------------------------------------------")
 print("27. Consider an integer vector Z, which of these expressions are legal? (★☆☆)")
-Z = np.ones((5,3))
+Z = np.ones((5, 3))
 print(Z)
 print(Z**Z)
 print(Z < -Z)
