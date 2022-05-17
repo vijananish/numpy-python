@@ -86,3 +86,6 @@ In **np.split** it will divide the array and make empty array if split divide is
 8. ```data.flags.writeable = True``` : to make data in readable format.
 9. ```np.iinfo, np.finfo``` : limit the machine to integer and float. The kind of integer data type to get information about.
 10. ```numpy.set_printoptions(threshold=sys.maxsize)``` : to print all the values
+11. ```np.put()``` : used to change values defining data amd index
+12. ```np.random.choice``` : used to select number of random values.
+13. ```keepdims parameter``` : used to maintain dimensions on np operation like mean etc

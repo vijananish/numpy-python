@@ -1,5 +1,5 @@
 """
-This file contains solution of 21-30 questions
+This file contains solution of 41-50 questions
 """
 import numpy as np
 
@@ -51,12 +51,12 @@ C = np.divide(1, np.subtract(x, y))
 # 48. Print the minimum and maximum representable value for each numpy scalar type (★★☆)
 print("-----------------------------------------------------------")
 print("48. Print the minimum and maximum representable value for each numpy scalar type (★★☆)")
-for dtype in [np.int8, np.int32, np.int64]:
-   print(np.iinfo(dtype).min)
-   print(np.iinfo(dtype).max)
-for dtype in [np.float32, np.float64]:
-   print(np.finfo(dtype).min)
-   print(np.finfo(dtype).max)
+for d_type in [np.int8, np.int32, np.int64]:
+    print(np.iinfo(d_type).min)
+    print(np.iinfo(d_type).max)
+for d_type in [np.float32, np.float64]:
+    print(np.finfo(d_type).min)
+    print(np.finfo(d_type).max)
 
 # 49. How to print all the values of an array? (★★☆)
 print("-----------------------------------------------------------")
