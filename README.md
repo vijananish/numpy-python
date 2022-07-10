@@ -1,14 +1,18 @@
 # NUMPY
 NumPy, which stands for Numerical Python, is a library consisting of multidimensional array objects and a collection of routines for processing those arrays. Using NumPy, mathematical and logical operations on arrays can be performed.
+
+In Numpy, number of dimensions of the array is called rank of the array.A tuple of integers giving the size of the array along each dimension is known as shape of the array. An array class in Numpy is called as ndarray. Elements in Numpy arrays are accessed by using square brackets and can be initialized by using nested Python Lists.
 1. Mathematical and Logical Operations
 2. Fourier Transform
 3. Operation related to linear Algebra
 
 ## WHY NUMPY
 ![alt text](https://miro.medium.com/max/1400/1*HRezxXfsgF-ZS4CXX0i_Fw.jpeg)
+
 ### 1. Fixed-Type
 In this one specifies dtype to define the size. It uses fewer bytes therefore less memory. No type checking while iterating through the object.
 ![alt text](https://miro.medium.com/max/1400/1*JuPhEfCfla3jpbKvKVV8JQ.png)
+
 ### 2. Continuous Memory
 ![alt text](https://i.stack.imgur.com/oQQVI.png)
 
